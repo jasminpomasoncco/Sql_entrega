@@ -1,6 +1,7 @@
 const Product =  require('../contenedores/contenedor');
 const product = new Product('data/productos.txt');
 
+
 const getAllProducts = async(req, res) => {
     try {
         res.json({
