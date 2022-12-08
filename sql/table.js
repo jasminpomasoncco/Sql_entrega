@@ -1,4 +1,5 @@
-import { clienteSql as knex } from '../sql/clienteSql'
+const options = require('./options.js')
+const knex = require('knex')(options)
 
 knex.schema.hasTable('products')
     .then(exists => {

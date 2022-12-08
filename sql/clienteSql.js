@@ -1,4 +1,4 @@
-import { knexConfig } from '../sql/knexConfig.js'
+import { knexConfig } from '../sql/options.js'
 import crearKnex from 'knex'
 
 const clienteSql = crearKnex(knexConfig)
