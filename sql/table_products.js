@@ -1,4 +1,4 @@
-const {options} = require('../sql/options.js')
+const {options} = require('./options_mysql.js')
 const knex = require('knex')(options)
 
 knex.schema.hasTable('products')
