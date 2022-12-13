@@ -1,7 +1,10 @@
 var options = {
-  client: 'sqlite3',
+  client: 'mysql',
   connection: { 
-    filename: "./mydb.sqlite"
+    host: '127.0.0.1',
+    user: 'root',
+    password: '',
+    database: 'ecommerce'
   },
   useNullAsDefault: true
 }
